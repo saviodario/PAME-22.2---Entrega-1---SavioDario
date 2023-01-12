@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- primeira divisão com imagem da logo e background laranja -->
     <div id="container1">
         <img class=logo src="./assets/Logo Fluxo.webp">
     </div>
+    <!-- segunda divisão com as caixas de informação -->
     <div id="container2">
+        <!-- caixas de texto titulo e subtitulo -->
         <strong>
             Não vá embora agora!
         </strong>
         <span>
             Preencha nosso formulário e receba conteúdos exclusivos para te ajudar com problemas relacionados à engenharia.
         </span>
+        <!-- sessão caixas de infomação nome e email -->
         <input class=caixainfo type="text" id="nome" placeholder="Nome*">
         <input class=caixainfo type="text" id="email" placeholder="Email*">
+        <!-- sessao das checkbox -->
         <div class="check">
             <legend>Áreas de interesse</legend>
             <div>
@@ -54,6 +59,7 @@
                 <input type="checkbox" name="lista8" id="lista8"> <label
                 for="lista8"> Tecnologia da informação</label>
             </div>
+        <!-- botao de enviar formulário -->
         <div>
             <button class="botao" onclick="alert('Formulário enviado!')">Tenho interesse</button>
         </div>
